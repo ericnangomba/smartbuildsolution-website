@@ -17,9 +17,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <span className="font-bold text-white text-lg leading-tight">
-              Smart Build <span className="text-brand-primary">Solutions</span>
-            </span>
+            <Link to="/">
+              <img
+                src="/img/smartbuildsolutions_logo.png"
+                alt="Smart Build Solutions Logo"
+                className="h-14 w-auto"
+              />
+            </Link>
             <p className="text-gray-300 text-sm mt-4">
               Your trusted partner in home improvement and maintenance services across Cape Town.
             </p>
