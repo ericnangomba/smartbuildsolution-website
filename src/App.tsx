@@ -22,7 +22,7 @@ function App() {
           <Toaster />
           <Sonner />
           <div className="flex flex-col min-h-screen">
-            <Header logoText="Smart Build Solutions" />
+            <Header logoText={"Smart Build Solutions"} />
             <main className="flex-1">
               <Routes>
                 <Route path="/" element={<Index />} />
